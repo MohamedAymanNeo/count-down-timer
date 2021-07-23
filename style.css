@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-image: url("./snow.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #2C4A64;
+}
+
+.countdown-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 100px;
+}
+
+.countdown-time__header {
+  font-size: 4rem;
+}
+
+.countdown-time__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.countdown-time__container .timerEl {
+  text-align: center;
+  margin: 20px;
+}
+
+.countdown-time__container .timerEl span {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.countdown-time__container .big-text {
+  font-size: 5rem;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */
